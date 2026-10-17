@@ -1,0 +1,6 @@
+{
+  "name": "BloomStitch Haute Atelier",
+  "description": "Artisanal 3D botanical embroidery atelier, interactive living bouquet studio, couture stitch guides, and archival pattern blueprints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

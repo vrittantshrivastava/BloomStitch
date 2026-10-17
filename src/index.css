@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e3126;
+  --color-primary-container: #34483b;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #a0b6a5;
+  --color-primary-fixed: #d1e8d6;
+  --color-primary-fixed-dim: #b5ccbb;
+  --color-on-primary-fixed: #0c1f14;
+  --color-secondary: #864e57;
+  --color-secondary-container: #ffb6c0;
+  --color-secondary-fixed: #ffd9dd;
+  --color-secondary-fixed-dim: #fcb3be;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-fixed: #360d16;
+  --color-on-secondary-fixed-variant: #6b3740;
+  --color-tertiary: #24311e;
+  --color-tertiary-container: #3a4733;
+  --color-tertiary-fixed: #d8e7cb;
+  --color-tertiary-fixed-dim: #bccbb0;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-fixed: #131f0d;
+  --color-on-tertiary-container: #a6b59b;
+  --color-surface: #fff8f5;
+  --color-surface-bright: #fff8f5;
+  --color-surface-dim: #dfd9d5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f9f2ef;
+  --color-surface-container: #f4ece9;
+  --color-surface-container-high: #eee7e3;
+  --color-surface-container-highest: #e8e1de;
+  --color-surface-variant: #e8e1de;
+  --color-surface-tint: #4e6355;
+  --color-background: #fff8f5;
+  --color-on-surface: #1e1b19;
+  --color-on-surface-variant: #434843;
+  --color-outline: #737873;
+  --color-outline-variant: #c3c8c2;
+  --color-inverse-surface: #33302e;
+  --color-inverse-on-surface: #f6efec;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+
+  --font-serif: "EB Garamond", Georgia, serif;
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-margin-sm: 1.25rem;
+  --spacing-margin: 2rem;
+  --spacing-margin-lg: 4rem;
+  --spacing-gutter-sm: 1rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-lg: 2.5rem;
+}
+
+/* Custom Typography & Utility Classes matching Atelier theme */
+.font-headline-xl {
+  font-family: var(--font-serif);
+  font-size: clamp(2.25rem, 4vw, 3.25rem);
+  line-height: 1.12;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+
+.font-headline-lg {
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.font-headline-md {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+}
+
+.font-headline-sm {
+  font-family: var(--font-serif);
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+.font-body-lg {
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-body-md {
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+}
+
+.font-body-sm {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+}
+
+.font-label-lg {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+.font-label-md {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+
+.font-label-sm {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+/* Material Symbols formatting */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbars cleanly */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
